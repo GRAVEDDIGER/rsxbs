@@ -98,7 +98,7 @@ div>h2{
     margin: 8px;
 }
 footer h4{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer > div{
@@ -111,4 +111,17 @@ footer img:hover{
 }
 footer img{
     transition: all ease;
+}
+.centro{
+    height: 100%;
+
+}
+
+.linea{
+    border-top: var(--colorSecundario) solid 4px;
+    padding-top: 20px;
+}
+.lineaAbajo{
+    border-bottom: var(--colorSecundario) solid 4px;
+    padding-top: 20px;
 }
