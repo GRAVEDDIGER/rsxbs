@@ -1,36 +1,76 @@
-:root{
+:root {
     --colorPrimario: #000;
     --colorSecundario: #dad5d5;
-    --colorAcentos:#11bfbf;
-    --colorAcemtp2:#7d7d7d;
-    --fondoPrincipal:#FFF;
+    --colorAcentos: #11bfbf;
+    --colorAcento2: #7d7d7d;
+    --fondoPrincipal: #FFF;
 
 }
+
 altura {
     height: 100vh;
 }
-.cabecera{
+
+.cabecera {
     height: 100px;
     background-color: var(--fondoPrincipal);
 
 
 }
-.logo{
+
+.logo {
     height: 120px;
 }
-.textoHeader{
+
+.textoHeader {
     text-align: center;
 }
-.textoHeader h1{
+
+.textoHeader h1 {
     font-size: 24px;
-    color:var(--colorAcentos);
+    color: var(--colorAcentos);
     font-weight: bold;
 
 }
-.menu{
-    height: 100%;
-    border: var(--colorPrimario) solid 2px;
+
+.separador {
+    margin: 0;
+    padding: 0;
+    height: 3px;
+    background-color: var(--colorSecundario);
+
 }
-.textoHeader h2{
+
+.menu {
+    /* height: 80vh; */
+    border: var(--colorSecundario) solid 3px;
+    padding-top: 10px;
+    position: relative;
+    color: var(--colorPrimario);
+}
+
+.menu a {
+    color: var(--colorPrimario);
+}
+
+.menu>li:hover>a {
+    color: var(--colorSecundario);
+}
+
+.textoHeader h2 {
     font-size: 18px;
+}
+.dropend{
+    margin: 0;
+padding: 0;
+top:0;
+left:0%;
+}
+.imgMenu{
+    width: 85%;
+    border: var(--colorSecundario) solid 5px;
+}
+div>h2{
+    color: var(--colorAcentos);
+    font-weight: bold;
 }
