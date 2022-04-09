@@ -46,7 +46,7 @@ altura {
 }
 
 .menu {
-height:max-content    
+height:max-content ;   
 border: var(--colorSecundario) solid 3px;
 min-height: 100vh;    
 padding-top: 10px;
