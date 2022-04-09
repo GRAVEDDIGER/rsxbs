@@ -20,8 +20,12 @@ altura {
 
 .logo {
     height: 120px;
+    transition: all 0.4s ease;
 }
-
+.logo:hover{
+    transform: scale(1.05);
+    filter: saturate(180%);
+}
 .textoHeader {
     text-align: center;
 }
@@ -42,7 +46,8 @@ altura {
 }
 
 .menu {
-height: 100%;    border: var(--colorSecundario) solid 3px;
+height:max-content    
+border: var(--colorSecundario) solid 3px;
 min-height: 100vh;    
 padding-top: 10px;
     position: relative;
@@ -56,7 +61,9 @@ padding-top: 10px;
 .menu>li:hover>a {
     color: var(--colorSecundario);
 }
-
+.btn-outline-dark:hover{
+    color: var(--colorSecundario);
+}
 .textoHeader h2 {
     font-size: 18px;
 }
@@ -69,6 +76,11 @@ left:0%;
 .imgMenu{
     width: 85%;
     border: var(--colorSecundario) solid 5px;
+    transition:all 0.4s ease;
+}
+.imgMenu:hover{
+    transform: scale(1.01);
+    filter: saturate(180%);
 }
 div>h2{
     color: var(--colorAcentos);
@@ -83,13 +95,20 @@ div>h2{
 .iconos{
     width: 32px;
     height: 32px;
-    margin: 3px;
+    margin: 8px;
 }
 footer h4{
     font-size: 18px;
 }
 
-footer div{
-    margin-left: 15px;
-    margin-right: 15px;
+footer > div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer img:hover{
+    transform: scale(1.3);
+    filter: saturate(180%);
+}
+footer img{
+    transition: all ease;
 }
